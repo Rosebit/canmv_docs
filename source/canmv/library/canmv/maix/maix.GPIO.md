@@ -4,7 +4,7 @@ maix.GPIO
 General Purpose Input Output （通用输入/输出）简称为 GPIO，或总线扩展器。
 
 K210上有高速 GPIO(GPIOHS) 和通用 GPIO
-在 K210 上， GPIO 有一下特征：
+在 K210 上， GPIO 有以下特征：
 * 高速 GPIO：
 
   高速 GPIO 为 GPIOHS，共 32 个。具有如下特点：
@@ -24,7 +24,7 @@ K210上有高速 GPIO(GPIOHS) 和通用 GPIO
 
 **注意**:
 
-一下 GPIOHS 默认已经被使用， 程序中如非必要尽量不要使用：
+以下 GPIOHS 默认已经被使用， 程序中如非必要尽量不要使用：
 
 | GPIOHS | 功能|
 | ------ | --- |
